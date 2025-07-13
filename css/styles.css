@@ -1198,6 +1198,16 @@ input:checked+label .policy-checkbox {
 top: 50%;
 left: 50%;
             }
+.modal-close-btn:hover .form-close,
+.modal-close-btn:focus .form-close {
+ fill: #ffffff;
+                        }
+            
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+background-color: #404bbf;
+border: none;
+                        }
 .form-input:hover,
 .form-input:focus {
     border-color: #4D5AE5;
