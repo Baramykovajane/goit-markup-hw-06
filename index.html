@@ -24,12 +24,11 @@
     <!--Heder-->
     <header class="header">
       <div class="header-container container">
-       
         <nav class="main-nav">
           <a href="./index.html" class="logo"
             >Web<span class="logo-accent">Studio</span></a
           >
-    
+
           <ul class="nav-menu">
             <li>
               <a href="./index.html" class="nav-link current">Studio</a>
@@ -53,18 +52,29 @@
             </li>
           </ul>
         </address>
-        <button class="burger-btn" data-menu-open type="button" aria-label="Open menu">
+        <button
+          class="burger-btn"
+          data-menu-open
+          type="button"
+          aria-label="Open menu"
+        >
           <svg class="burger-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-menu"></use> </svg>
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
         </button>
       </div>
       <div class="mobile-menu" data-menu>
         <div class="container mobile-container">
-<button class="mobile-close-btn" data-menu-close type="button" aria-label="Close menu">
-          <svg class="mobile-close-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
+          <button
+            class="mobile-close-btn"
+            data-menu-close
+            type="button"
+            aria-label="Close menu"
+          >
+            <svg class="mobile-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
           <nav class="mobile-nav">
             <ul class="mobile-nav-list">
               <li>
@@ -88,7 +98,6 @@
                   >info@devstudio.com</a
                 >
               </li>
-              
             </ul>
           </address>
           <ul class="social-media">
@@ -134,7 +143,7 @@
             Order Service
           </button>
         </div>
-      </section> 
+      </section>
 
       <!--секція 2-->
       <section id="services-section" class="services-section">
@@ -191,7 +200,7 @@
             </li>
           </ul>
         </div>
-      </section> 
+      </section>
 
       <!--секція 3-->
       <section id="our-team" class="team-section">
@@ -200,6 +209,7 @@
           <ul class="team-list">
             <li class="team-item">
               <img
+                srcset=""
                 src="./images/Mark-Guerrero.jpg"
                 width="264"
                 height="260"
@@ -369,7 +379,7 @@
             </li>
           </ul>
         </div>
-      </section> 
+      </section>
       <!--секція 4-->
       <section id="portfolio-section" class="portfolio-section">
         <div class="container">
@@ -378,6 +388,7 @@
             <li class="portfolio-item">
               <div class="image-box">
                 <img
+                  class="portfolio-image"
                   src="./images/App.jpg"
                   width="360"
                   height="300"
@@ -397,6 +408,7 @@
             <li class="portfolio-item">
               <div class="image-box">
                 <img
+                  class="portfolio-image"
                   src="./images/marketing.jpg"
                   width="360"
                   height="300"
@@ -417,6 +429,7 @@
             <li class="portfolio-item">
               <div class="image-box">
                 <img
+                  class="portfolio-image"
                   src="./images/meditation-app.jpg"
                   width="360"
                   height="300"
@@ -436,6 +449,7 @@
             <li class="portfolio-item">
               <div class="image-box">
                 <img
+                  class="portfolio-image"
                   src="./images/taxi-service.jpg"
                   width="360"
                   height="300"
@@ -455,6 +469,7 @@
             <li class="portfolio-item">
               <div class="image-box">
                 <img
+                  class="portfolio-image"
                   src="./images/design.jpg"
                   width="360"
                   height="300"
@@ -474,6 +489,7 @@
             <li class="portfolio-item">
               <div class="image-box">
                 <img
+                  class="portfolio-image"
                   src="./images/online-courses.jpg"
                   width="360"
                   height="300"
@@ -492,7 +508,7 @@
             </li>
           </ul>
         </div>
-      </section> 
+      </section>
     </main>
     <footer class="footer">
       <div class="footer-wrapper container">
@@ -561,9 +577,9 @@
           </form>
         </div>
       </div>
-    </footer> 
+    </footer>
 
-    <!-- <div class="modal-overlay" data-modal>
+    <div class="modal-overlay" data-modal>
       <div class="modal">
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="form-close" width="8" height="8">
@@ -643,14 +659,16 @@
                   <use href="./images/icons.svg#icon-select"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="policy-link" href="#"> Privacy Policy</a>
+              <div class="policy-text">
+                I accept the terms and conditions of the
+                <a class="policy-link" href="#"> Privacy Policy</a>
+              </div>
             </label>
           </div>
 
           <button type="submit" class="submit-btn">Send</button>
         </form>
-      </div> -->
+      </div>
     </div>
 
     <script src="./js/modal.js"></script>
