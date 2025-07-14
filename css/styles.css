@@ -344,8 +344,6 @@ ul.social-media {
     }
 }
 /* Hero section */
-.hero-section .container {
-}
 .hero-section {
 background-color: #2a2a2a;
     background-image: linear-gradient(to bottom,
@@ -372,7 +370,9 @@ background-color: #2a2a2a;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    margin: 72px 52px;
+    margin: 0 auto 52px;
+    max-width: 216px;
+
 }
 
 .hero-button {
@@ -415,6 +415,7 @@ background-color: #2a2a2a;
         font-size: 56px;
         line-height: 1.07143;
         letter-spacing: 0.02em;
+        max-width: 496px;
                                 }
     }
         
@@ -438,7 +439,6 @@ max-width: 1440px;
         padding-bottom: 188px;     
     }
     .hero-title {
-       max-width: 496px;
         margin: 0 auto 48px;
         }
     .hero-button:hover,
@@ -502,7 +502,7 @@ padding-bottom: 96px;
         row-gap: 72px;
     }
    .service-item {
-    width: calc((100% - 48px) / 2); 
+    width: calc((100% - 24px) / 2); 
    }
    .heading-services {
     text-align: start;
@@ -993,6 +993,11 @@ width: 264px;            }
     .footer-wrapper {
     justify-content: space-between;
     }
+        .footer-container,
+        .footer-social-media,
+        .subscribe {
+            margin-bottom: 0;
+        }
  .social-link-instagram-footer:hover,
  .social-link-instagram-footer:focus {
      background-color: #31d0aa;
